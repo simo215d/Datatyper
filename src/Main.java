@@ -35,5 +35,15 @@ public class Main {
             System.out.println("The boolean was not true");
         }
         System.out.println("-------------------------------------");
-        }
+        System.out.println("Lommeregner til addition!");
+        byte a;
+        byte b;
+        Scanner scan1 = new Scanner(System.in);
+        System.out.println("Tast første tal:");
+        a = scan1.nextByte();
+        System.out.println("Tast andet tal:");
+        b = scan1.nextByte();
+        System.out.println("resultat = " + (a+b));
+        System.out.println("---------= end of program =-----------");
     }
+}
